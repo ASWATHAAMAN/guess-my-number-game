@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+:root {
+  --clr-oxford-blue: hsla(212, 100%, 17%, 1);
+  --clr-oxford-blue-3: hsla(219, 100%, 10%, 1);
+  --clr-delft-blue: hsla(220, 29%, 28%, 1);
+  --clr-slate-gray: hsla(222, 11%, 54%, 1);
+  --clr-cherry-blossom-pink: hsla(345, 100%, 85%, 1);
+  --clr-bakermiller-pink: hsla(345, 100%, 78%, 1);
+  --clr-russian-violet: hsla(255, 45%, 18%, 1);
+  --clr-lilac: hsla(292, 28%, 68%, 1);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #333;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.header{
+  display: flex;
+}
+.btn-container{
+  margin: 1rem auto;
+  margin-left: 10px;
+}
+.btn-again{
+  padding: 3px 15px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.rules{
+  margin: 1rem auto;
+  margin-right: 10px;
+  color: #fff;
+}
+.hero-container{
+  display: flex;
+  justify-content: center;
+}
+.title-tag{
+  color: #fff;
+  padding-bottom: 10px;
+}
+.display-container{
+  display: flex;
+  justify-content: center;
+}
+.display-box{
+  font-size: 2rem;
+  background-color: #fff;
+  padding:0.3rem 1.2rem;
+  margin-top: -22px;
+  font-weight: 700;
+}
+.containers{
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem auto;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.guess-input{
+  width: 8rem;
+  padding: 10px;
+  background-color: #333;
+  border: 1px solid #fff;
+}
+.btn-check{
+text-align: center;
+background-color: #fff;
+font-size: 14px;
+padding: 5px;
+margin: auto 10px;
+margin-top: 10px;
+font-weight: 700;
+}
+.right-container{
+  margin: 2rem auto;
+}
+.message{
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+.score{
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.high-score{
+  color: #fff;
+  font-size: 16px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my Number</title>
+    <link
+      rel="shortcut icon"
+      href="./images/dress-code.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="btn-container">
+        <button type="button" id="btn-again" class="btn-again">Again!</button>
+      </div>
+      <span class="rules" id="rules">(Between 1 and 100)</span>
+    </header>
+    <div class="hero-container">
+      <h1 class="title-tag">Guess My Number!</h1>
+    </div>
+    <hr />
+    <div class="display-container">
+      <p class="display-box" id="display-box">?</p>
+    </div>
+    <div class="containers">
+      
+        <div class="input-container">
+          <input type="number" id="guess-input" class="guess-input" />
+          <span class="btn-check">Check!</span>
+        </div>
+      
+      <section class="right-container">
+        <p class="message" id="message">Start guessing...</p>
+        <div class="score-container">
+          <p class="score" id="score">Score: 10</p>
+          <p class="high-score" id="high-score">Highscore: 0</p>
+        </div>
+      </section>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
